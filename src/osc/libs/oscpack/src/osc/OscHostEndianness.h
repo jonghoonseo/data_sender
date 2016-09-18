@@ -48,6 +48,8 @@
     $ g++ -DOSC_HOST_LITTLE_ENDIAN ...
 */
 
+#define WINCE
+
 #if defined(OSC_HOST_LITTLE_ENDIAN) || defined(OSC_HOST_BIG_ENDIAN)
 
 // endianness defined on the command line. nothing to do here.
