@@ -46,6 +46,9 @@
     <ClCompile Include="..\..\src\osc\src\ofxOscSender.cpp">
       <Filter>소스 파일\osc</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\osc_sender.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\osc\libs\oscpack\src\ip\IpEndpointName.h">
@@ -101,6 +104,12 @@
     </ClInclude>
     <ClInclude Include="..\..\src\osc\src\ofxOscSender.h">
       <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc_sender.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common.h">
+      <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
