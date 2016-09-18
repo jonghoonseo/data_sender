@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{1373f09b-6f69-43cd-89a8-8ea8b1114711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\osc">
+      <UniqueIdentifier>{1035fe8b-f71b-413f-beab-d6a494d15d45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\osc\libs\oscpack\src\ip\IpEndpointName.cpp">
+      <Filter>소스 파일\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\osc\libs\oscpack\src\ip\win32\NetworkingUtils.cpp">
+      <Filter>소스 파일\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\osc\libs\oscpack\src\ip\win32\UdpSocket.cpp">
+      <Filter>소스 파일\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\osc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp">
+      <Filter>소스 파일\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\osc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp">
+      <Filter>소스 파일\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\osc\libs\oscpack\src\osc\OscReceivedElements.cpp">
+      <Filter>소스 파일\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\osc\libs\oscpack\src\osc\OscTypes.cpp">
+      <Filter>소스 파일\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\osc\src\ofxOscBundle.cpp">
+      <Filter>소스 파일\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\osc\src\ofxOscMessage.cpp">
+      <Filter>소스 파일\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\osc\src\ofxOscSender.cpp">
+      <Filter>소스 파일\osc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\ip\IpEndpointName.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\ip\NetworkingUtils.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\ip\PacketListener.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\ip\TimerListener.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\ip\UdpSocket.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\osc\OscException.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\osc\OscHostEndianness.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\osc\OscOutboundPacketStream.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\osc\OscPacketListener.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\osc\OscPrintReceivedElements.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\osc\OscReceivedElements.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\libs\oscpack\src\osc\OscTypes.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\src\ofxOsc.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\src\ofxOscArg.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\src\ofxOscBundle.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\src\ofxOscMessage.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\osc\src\ofxOscSender.h">
+      <Filter>소스 파일\osc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
