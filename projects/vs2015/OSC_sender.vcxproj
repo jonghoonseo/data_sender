@@ -30,8 +30,10 @@
     <ClCompile Include="..\..\src\osc\src\ofxOscBundle.cpp" />
     <ClCompile Include="..\..\src\osc\src\ofxOscMessage.cpp" />
     <ClCompile Include="..\..\src\osc\src\ofxOscSender.cpp" />
+    <ClCompile Include="..\..\src\osc_sender.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\src\common.h" />
     <ClInclude Include="..\..\src\osc\libs\oscpack\src\ip\IpEndpointName.h" />
     <ClInclude Include="..\..\src\osc\libs\oscpack\src\ip\NetworkingUtils.h" />
     <ClInclude Include="..\..\src\osc\libs\oscpack\src\ip\PacketListener.h" />
@@ -50,6 +52,7 @@
     <ClInclude Include="..\..\src\osc\src\ofxOscBundle.h" />
     <ClInclude Include="..\..\src\osc\src\ofxOscMessage.h" />
     <ClInclude Include="..\..\src\osc\src\ofxOscSender.h" />
+    <ClInclude Include="..\..\src\osc_sender.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D3314F13-16A6-46FF-BD6B-2EBC900DF9F8}</ProjectGuid>
